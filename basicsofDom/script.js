@@ -69,3 +69,14 @@ let b=cherry();
 a.then((data)=>{
     console.log(data);
 })
+// let promise = new Promise(function(resolve,reject){
+//     alert("Hello");
+//     resolve(56);
+// })
+
+// console.log("Hello");
+// setTimeout(function(){
+//     console.log("Hello Ayush");
+// },2000);
+// console.log("My name is " + "Ayush");
+// console.log(promise);
