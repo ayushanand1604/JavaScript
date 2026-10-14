@@ -21,3 +21,13 @@ console.log(arr);
 // });
 arr=arr.map(ele =>ele*2);
 console.log(arr);
+
+const array1 = [1, 2, 3, 4, 5];
+const array2 = [3, 4, 5, 6, 7];
+// 1. Convert the second array into a Set for fast lookup
+const set2 = new Set(array2);
+
+// 2. Filter elements from array1 that exist in the Set
+const commonElements = array1.filter(item => set2.has(item));
+
+console.log(commonElements); // Output: [3, 4, 5]

@@ -53,3 +53,24 @@ brr.forEach((ele,i,brr)=>{
     ele*=2;
 });
 console.log(brr);
+console.log("5"-2);
+console.log(1 + "2" + 3)
+function x() {
+    var a = 1;
+  
+    if (true) {
+      var a = 2;
+    }
+  
+    console.log(a);
+  }
+  
+  x();
+
+  console.log("1");
+
+  setTimeout(() => console.log("2"), 1000);
+  
+  Promise.resolve().then(() => console.log("3"));
+  
+  console.log("4");

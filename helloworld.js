@@ -23,6 +23,16 @@
 // b=6;
 // c=8;
 // console.log(a,b,c);
-console.log("raghav","garg","is","coding");
-age=24;
-console.log("My age is "+age);
+// console.log("raghav","garg","is","coding");
+// age=24;
+// console.log("My age is "+age);
+let name = "Ayush";
+test();
+function test() {
+    console.log(name);
+}
+
+if (true) {
+    let a = 10;// if we take here var then it will be global variable
+}
+console.log(a);

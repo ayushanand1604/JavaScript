@@ -4,7 +4,6 @@ for(let i=1;i<=10;i++){
         console.log(i);
     },i*1000);
 }
-
 // function h(){
 //     console.log("hello");
 // }
